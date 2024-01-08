@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* shared style */
+.container{
+    width: 83%;
+    max-width: 1320px;
+    margin: 50px auto;
+    border-radius: 16px;
+    font-family: 'Merriweather', serif;
+
+    
+}
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 12px 32px;
+    background-color: #F00;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+
+}
+
+
+/* head section styles */
+.banner::before{
+  content: " ";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  z-index: -1;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  border-radius: 16px;
+}
+.banner{
+    
+    position: relative;
+    z-index: 1;
+    background: url(./assets/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 175px 280px;
+   
+
+}
+.heading h1{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+.heading h4{
+    text-align: center;
+    font-size: 27px; 
+    font-weight: 400;
+
+}
+
+
+
+/* discount offer section styles */
+
+.discount{
+    
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 120px 0;
+}
+.discount h1{
+    color: #F00;
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+.discount-box h1,.discount-des,.discount-img{
+  margin-bottom: 47px;
+}
+ .discount-box .discount-des h4{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+ }
+ .discount-box .discount-des h2{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .discount-box  .discount-img img{
+    width: 50%;
+    max-width: 800px;
+ }
+
+ /* party section style.... */
+ .party::before{
+    content: " ";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  z-index: -1;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);  border-radius: 16px;
+   
+}
+ .party{
+    position: relative;
+    z-index: 1;
+    background: url(./assets/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-bottom: 90px;
+    
+   
+
+ }
+ .party .party-div{
+    display: flex;
+    padding: 100px ;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .party .party-div .party-welcome{
+    max-width: 650px;
+ }
+ 
+ .party .party-div .party-welcome h1{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 53px;
+    font-weight: 900;
+    line-height: 72px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+ }
+ .party .party-div .party-welcome p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+ }
+ .party .party-div .party-welcome button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border:1px solid red;
+    background: none;
+
+ }
+
+
+ /* location section */
+
+ .location {
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    
+}
+.location .location-div{
+    padding: 100px 315px;
+    text-align: center;
+    font-family: Inter;
+}
+.location-div span{
+    color: #F00;
+}
+.location-div h2{
+    font-size: 27px;
+    color: #070211;
+    line-height: 55px;
+
+}
+
+
+/* best offer section */
+
+.best-offer{
+  width: 83%;
+  margin: 120px auto;
+}
+.best-offer .offer-details{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
