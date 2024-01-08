@@ -243,7 +243,7 @@
 
 
  /* holiday offer */
- .holiday-offer{
+ .holiday{
    margin-bottom: 100px;
  }
  .holiday-offer .holiday-heading{
@@ -267,6 +267,37 @@
  .holiday-heading h1>span{
     color: #F00;
     
+ }
+ .holiday .holiday-images {
+    background: url(./assets/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    margin: 170px 0 50px 0;
+    border-radius: 0px 0px 16px 16px;
+   
+   
+ }
+ .h-img-2{
+    position: absolute;
+    right: 0;
+    top: -25%;
+    max-width: 400px;
+    z-index: -1;
+   
+ }
+ .h-img-1{
+    position: absolute;
+    top: -10%;
+    right: 25%;
+    z-index: 1;
+    max-width: 250px;
+ }
+ .h-img-3{
+   
+   max-height: 700px;
+   max-width: 600px;
+  
  }
  
 /* portfolio section */
